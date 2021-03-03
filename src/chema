@@ -1,0 +1,34 @@
+redux	
+	store.js
+	reducer.js
+	data.js
+
+pages
+	App
+	Login
+	Signup
+	Cart
+	ORders
+	Profile
+	Checkout
+	Logout
+	Header
+	Footer
+
+index.js
+<Provider store={store}>
+	<App/>
+</Provider>
+
+
+state=useSelector  [import react-redux]
+dispatch=useDispatch  [import react-redux]
+props.history.push-to redirect
+
+Home
+	Left
+		p span
+	Right
+		Filters
+		Products
+			Item

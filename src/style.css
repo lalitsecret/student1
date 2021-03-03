@@ -1,0 +1,183 @@
+body
+{
+	background: tomato;
+	font-family: calibri;
+	margin:0;
+}
+input,button,a
+{
+	padding: 10px;
+	border:0;
+	outline:0;
+	text-decoration: none;
+}
+header
+{
+	background: black;
+	color:white;
+	line-height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+header h1
+{
+	margin:0;
+}
+header a
+{
+color:white;
+}
+
+footer
+{
+	line-height: 10vh;
+	background: black;
+	color:white;
+	text-align: center;
+}
+
+.container
+{
+	height: 80vh;
+	overflow: auto;
+}
+
+main
+{
+	display: flex;
+}
+main .left
+{
+	width: 20%;
+}
+main .left p
+{
+	padding: 10px;
+	margin:10px;
+	background: black;
+	color:white;
+	border-radius: 100px;
+}
+main .left p.active
+{
+	background: white;
+	color:black;
+}
+main .left p span
+{
+	float: right;
+}
+
+main .right 
+{
+	width: 80%;
+}
+main .right .filters
+{
+	padding: 5px;
+	display: flex;
+	justify-content: center;
+}
+main .right .filters button.active
+{
+	background: black;
+	color:white;
+}
+main .right .products
+{
+	height: 70vh;
+	overflow: auto;
+}
+main .right .products .item
+{
+	display: inline-table;
+	margin:1%;
+	padding: 1%;
+	background: white;
+	width: 15%;
+	position: relative;
+	box-shadow:0 10px 10px black;
+}
+main .right .products .item img
+{
+	width: 100%;
+}
+main .right .products .item .tags
+{
+	position: absolute;
+	top:0;
+	left:0;
+	padding: 10px;
+	background: black;
+	color:white;
+}
+main .right .products .item .cart-btn
+{
+	position: absolute;
+	bottom:0;
+	right:0;
+	padding: 10px;
+	background: black;
+	color:white;
+}
+main .right .products .item .discount
+{
+	position: absolute;
+	top:50%;
+
+	left:0;
+	padding: 10px;
+	background:yellow;
+	transform: translateY(-50%);
+}
+
+
+form
+{
+	width: 30%;
+	padding: 2%;
+	background: white;
+	margin:2% auto;
+	border-top: 40px solid #000;
+	box-shadow:0 10px 10px black;
+}
+form input
+{
+	width: 100%;
+	border-bottom: 1px solid #000;
+	margin-bottom: 10px;
+}
+form button
+{
+	width: 100%;
+	background: black;
+	color:white;
+}
+
+.wrapper
+{
+	padding: 0 5%;
+}
+
+table
+{
+	margin-top: 20px;
+	width: 100%;
+	background: white;
+	text-align: center;
+	box-shadow:0 10px 10px black;
+}
+thead
+{
+	background: black;
+	color:white;
+}
+
+.btn
+{
+	text-decoration: none;
+	padding: 10px 30px;
+	background: black;
+	color:white;
+}

@@ -1,0 +1,14 @@
+copy App.jsx Home.jsx
+copy App.jsx Left.jsx
+copy App.jsx Right.jsx
+copy App.jsx Filters.jsx
+copy App.jsx Products.jsx
+copy App.jsx Item.jsx
+copy App.jsx Login.jsx
+copy App.jsx Signup.jsx
+copy App.jsx Cart.jsx
+copy App.jsx Orders.jsx
+copy App.jsx Profile.jsx
+copy App.jsx Checkout.jsx
+copy App.jsx Logout.jsx
+copy App.jsx Errpage.jsx
